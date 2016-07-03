@@ -11,7 +11,7 @@ GET /projects/:id/repository/tree
 Parameters:
 
 - `id` (required) - The ID of a project
-- `path` (optional) - The path inside repository. Used to get contend of subdirectories
+- `path` (optional) - The path inside repository. Used to get contents of subdirectories
 - `ref_name` (optional) - The name of a repository branch or tag or if not given the default branch
 
 ```json
